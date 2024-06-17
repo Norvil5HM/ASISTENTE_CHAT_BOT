@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = ViewBag.TituloPage;
+}
+
+<div class="container">
+
+    <!-- headers -->
+    <div class="row header mt-4 text-center align-items-center">
+        <div class="col">
+            <h2>Asistente de procesos SIS, Reniec, Judiciales</h2>
+        </div>
+    </div>
+
+    <!-- content chats -->
+    <div class="row content-chats mt-2">
+        <div class="row">
+            <div class="col mt-2 contenedor_menu_opciones div_scroll">
+                <div class="alert mt-5 msg_menu_ayuda">
+                    @* menus *@
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col contenedor_consultas_respuestas div_scroll">
+                @* request_respoonse *@
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row footer align-items-center mt-2">
+        <div class="col mt-2 input-group">
+            <input type="text" class="form-control input_consulta" placeholder="Digita una opción o consulta, 0 para limpiar chat"
+                   aria-label="Digita una opción o consulta" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="btn_enviar_consulta" onclick="Uf_request_response_usser_chatbot()">
+                <img src="~/Assets/ImgChat/Enviar.png"
+                     alt="Enviar">
+            </button>
+        </div>
+    </div>
+
+</div>
+<script src="~/js/chat/jschatbot.js"></script>

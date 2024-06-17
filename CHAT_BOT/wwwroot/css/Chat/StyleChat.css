@@ -1,0 +1,57 @@
+﻿.header {
+    border: 1px solid rgb(47, 82, 142);
+    color: rgb(182, 230, 240);
+    height: 8vh;
+    background-color: rgb(54, 89, 93);
+    border-radius: 2vh;
+}
+
+.content-chats {
+    border: 1px solid rgb(47, 82, 142);
+    height: 78vh;
+    background-color: rgb(54, 89, 93);
+    border-radius: 2vh;
+}
+
+body {
+    background-color: rgb(64, 64, 64);
+}
+
+.msg_consulta {
+    background-color: rgb(28, 131, 87);
+    color: white;
+}
+
+.msg_respuesta {
+    background-color: rgb(34, 122, 147);
+    color: white;
+}
+
+.msg_menu_ayuda {
+    background-color: rgb(115, 63, 65);
+}
+
+.contenedor_menu_opciones {
+    max-height: 30vh;
+    overflow-y: auto;
+    color: white;
+}
+
+.contenedor_consultas_respuestas {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.input_consulta {
+    border: 1px solid rgb(47, 82, 142);
+    background-color: rgb(54, 89, 93);
+    border: 0;
+}
+
+    .input_consulta::placeholder {
+        color: white;
+    }
+
+    .input_consulta:focus {
+        background-color: rgb(18, 217, 227);
+    }
